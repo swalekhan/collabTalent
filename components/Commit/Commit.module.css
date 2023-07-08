@@ -1,0 +1,79 @@
+.commit {
+    padding: 1vw 0px;
+    position: relative;
+    font-family: var(--font-dm-sans);
+}
+
+.commit_heading {
+    width: 40%;
+}
+
+.commit h2 {
+    font-size: var(--font-size-h2);
+    font-weight: 700;
+    line-height:  clamp(20px, 3.5vw, 35px);
+    letter-spacing: 1.44px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+    margin-top: clamp(20px, 5%, 30px);
+}
+
+.card {
+    list-style: none;
+}
+
+.card h4 {
+    font-size: var(--font-size-h4);
+    font-weight: 700;
+}
+
+.card p {
+    margin-top: 4%;
+    font-size: var(--font-size-sm);
+    font-weight: 400;
+}
+
+.commit_gradient {
+    position: absolute;
+    left: -25vw;
+    top: 0;
+    width: clamp(150px, 30vw, 400px);
+    height:clamp(150px, 30vw, 400px);
+    background: radial-gradient(50% 50%at 50% 50%, #095dff, rgba(191, 9, 255, 0));
+    filter: blur(140px);
+    border-radius: 50%;
+}
+
+/* media..... */
+
+
+  @media (max-width: 900px) {
+    .cards {
+        gap: 5%;
+    }
+  } 
+  
+  @media (max-width: 650px) {
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+    }
+    .commit_heading {
+        width: 80%;
+    }
+    .cards {
+        gap: 15%;
+    }
+    
+    .card p {
+       width: 80%;
+       line-height: 17px;
+    }
+    .commit_gradient{
+        filter: blur(500px);
+    }
+  } 
