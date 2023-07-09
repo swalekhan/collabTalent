@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import style from './Navbar.module.css'
 import Image from 'next/image'
-import { AiOutlineMenu } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi"
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from 'react'
 import MobileNavbar from './MobileNavbar'
@@ -44,7 +44,7 @@ const Navbar = () => {
                 {
                     !mobileMenu ?
                         <div className={style.navbar_menu} onClick={mobileMenuHandler}>
-                            <AiOutlineMenu />
+                            <GiHamburgerMenu />
                         </div>
                         :
                         <div className={style.navbar_menu} onClick={mobileMenuHandler}>
