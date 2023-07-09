@@ -2,13 +2,12 @@
 import Link from 'next/link'
 import style from './Navbar.module.css'
 import Image from 'next/image'
-import { AiOutlineMenu } from 'react-icons/ai'
-import { AiOutlineClose } from 'react-icons/ai'
+import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 import { useState } from 'react'
 import MobileNavbar from './MobileNavbar'
 import { navArr } from '@/utils/data'
 import { shareWeb } from '@/utils/data'
-
 
 const Navbar = () => {
     const [mobileMenu, setMobileMenu] = useState(false)
