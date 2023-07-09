@@ -83,11 +83,12 @@
 
     .diverse_content h2 {
         padding: 0px 0px;
+        line-height: 1.5rem;
     }
 
     .diverse_content p {
         padding: 0px 5px;
-        font-size: 14px;
+        font-size: 1rem;
     }
 
     .diverse_img img {

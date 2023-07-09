@@ -45,7 +45,7 @@
 
     .footer_content {
         flex-direction: column;
-        gap: 6px;
+        gap: 5px;
         padding: 10px 0px;
     }
 
@@ -55,11 +55,14 @@
 
     .footer_content ul {
         justify-content: space-between;
+        width: 100%;
     }
 
     .footer_content ul li {
-        margin-inline: 0.4rem;
-        font-size: 0.6px;
-        margin-top: 1rem;
+        margin-inline: 0.3rem;
+        margin-top: 0.8rem;
+    }
+    .footer_content ul li a{
+        font-size: 0.95rem;
     }
 }

@@ -44,5 +44,6 @@
 
     .banner p {
         padding: 0 0.9375rem;
+        line-height: 1.2rem;
     }
 }

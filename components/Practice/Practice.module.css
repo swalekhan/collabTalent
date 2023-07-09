@@ -74,13 +74,14 @@
 
     .practice_content h4 {
         padding-inline: 3px;
-        font-size: 14px;
+        font-size: 20px;
+        line-height: 1.5rem;
     }
 
     .practice ul li {
         font-size: 12px;
         box-shadow: 0 1px 10px 0px #bcd5fb;
-        ;
+        
     }
 
     .practice_content button {
@@ -88,6 +89,6 @@
     }
 
     .practice_gradient {
-        filter: blur(80px);
+        filter: blur(75px);
     }
 }
