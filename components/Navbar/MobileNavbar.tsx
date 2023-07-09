@@ -7,10 +7,11 @@ import { navArr } from "@/utils/data"
 
 interface MobileNavbarProps {
     mobileMenuHandler: () => void
+    navHandler:(title:string) =>void
     mobileMenu: boolean;
 }
 
-const MobileNavbar: React.FC<MobileNavbarProps> = ({ mobileMenuHandler, mobileMenu }) => {
+const MobileNavbar: React.FC<MobileNavbarProps> = ({ mobileMenuHandler, mobileMenu,navHandler }) => {
 
     return (
         <section className={`${style.MobileNavbar} ${mobileMenu ? style.MobileNavbar_active : ""}`} >
@@ -21,7 +22,7 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({ mobileMenuHandler, mobileMe
                 <ul onClick={mobileMenuHandler}>
                     {
                         navArr?.map((item, key) => (
-                            <li className='btn' key={key}>
+                            <li className='btn' key={key} onClick={()=>navHandler(item.title)}>
                                 <Link href="#">{item.title}</Link>
                             </li>
                         ))}

@@ -32,3 +32,16 @@ export const practItems: PracticeItem[] = [
     { id: 3, title: "Strategy Consultant" },
     { id: 4, title: "Financial Analysts" },
 ]
+
+export const shareWeb = () => {
+    if (navigator.share) {
+        navigator.share({
+            title: 'Share this website',
+            url: 'https://www.google.com'
+        }).then(() => {
+            console.log('Successfully shared');
+        }).catch((error) => {
+            console.error('Error sharing:', error);
+        });
+    }
+}

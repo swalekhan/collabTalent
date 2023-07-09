@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'CollabTalent Beta',
-  description: 'Prepare the smart way and get objective feedback on how you present yourself using AI technology.',
+  description: 'Prepare the smart way and get objective feedback on how you present yourself using AI technology',
 }
 
 export default function RootLayout({
