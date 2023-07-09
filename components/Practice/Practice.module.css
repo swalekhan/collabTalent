@@ -89,6 +89,6 @@
     }
 
     .practice_gradient {
-        filter: blur(75px);
+        filter: blur(100px);
     }
 }

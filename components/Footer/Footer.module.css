@@ -60,7 +60,8 @@
 
     .footer_content ul li {
         margin-inline: 0.3rem;
-        margin-top: 0.8rem;
+        margin-top: 0.4rem;
+        margin-bottom: 0.1rem;
     }
     .footer_content ul li a{
         font-size: 0.8rem;

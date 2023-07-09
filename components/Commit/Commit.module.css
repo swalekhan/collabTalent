@@ -75,6 +75,6 @@
        line-height: 17px;
     }
     .commit_gradient{
-        filter: blur(500px);
+        filter: blur(5000px);
     }
   } 
