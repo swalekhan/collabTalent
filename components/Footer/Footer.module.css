@@ -58,6 +58,8 @@
     }
 
     .footer_content ul li {
-        margin-inline: .5rem;
+        margin-inline: 0.4rem;
+        font-size: 0.6px;
+        margin-top: 1rem;
     }
 }

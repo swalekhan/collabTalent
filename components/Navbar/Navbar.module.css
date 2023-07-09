@@ -21,7 +21,7 @@
     background-color: transparent;
     display: inline-block;
     border: 1px solid ;
-    border-color:  #6a18dd ;
+    border-color:  #5c16d6c8 ;
     outline: 0;
     margin-left: 1rem;
     padding: 0.4em 1.3rem;
@@ -78,8 +78,9 @@
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:450px) {
     .navbar {
+        align-items: flex-start;
         height: 50px;
         padding-top: 0.5rem;
     }

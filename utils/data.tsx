@@ -36,8 +36,8 @@ export const practItems: PracticeItem[] = [
 export const shareWeb = () => {
     if (navigator.share) {
         navigator.share({
-            title: 'Share this website',
-            url: 'https://www.google.com'
+            title: 'Collabtalent beta',
+            url: 'collabtalent-next-js.vercel.app'
         }).then(() => {
             console.log('Successfully shared');
         }).catch((error) => {

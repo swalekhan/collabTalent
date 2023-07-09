@@ -22,8 +22,9 @@
     list-style: none;
     border-radius: 1vw;
     border: 1px solid #FFF;
-    box-shadow: 0 2px 15px 1px #bcd5fb;;
-    padding: clamp(10px, 1.5vw,15px);
+    box-shadow: 0 2px 15px 1px #bcd5fb;
+    ;
+    padding: clamp(10px, 1.5vw, 15px);
     font-size: var(--font-size-sm);
     font-weight: 700;
 }
@@ -36,9 +37,9 @@
 
 .practice_content h4 {
     padding-inline: 7vw;
-    font-size:clamp(16px,  2.5vw, 35px);
+    font-size: clamp(16px, 2.5vw, 35px);
     font-weight: 500;
-    line-height:  clamp(20px, 3.5vw, 40px);
+    line-height: clamp(20px, 3.5vw, 40px);
 }
 
 .practice_content button {
@@ -59,27 +60,34 @@
     filter: blur(140px);
 }
 
-@media(max-width:450px){
+@media(max-width:450px) {
     .practice ul {
         margin-top: 40px;
-        row-gap:30px ;
-        column-gap:25px ;
+        row-gap: 30px;
+        column-gap: 25px;
         justify-content: center;
-    } 
-    .practice ul li{
+    }
+
+    .practice ul li {
         flex-basis: 45%;
     }
+
     .practice_content h4 {
         padding-inline: 3px;
         font-size: 14px;
     }
-    .practice ul li{
+
+    .practice ul li {
         font-size: 12px;
+        box-shadow: 0 1px 10px 0px #bcd5fb;
+        ;
     }
+
     .practice_content button {
         margin-top: 8%;
     }
+
     .practice_gradient {
-        filter: blur(50px);  
+        filter: blur(80px);
     }
 }
