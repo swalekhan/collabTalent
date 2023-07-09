@@ -14,7 +14,7 @@
 
   /* font sizes */
   --root-font-size: 16px;
-  --font-size-lg: clamp(27px, 4vw, 40px);
+  --font-size-lg: clamp(26px, 5vw, 40px);
   --font-size-md: clamp(16px, 1.8vw, 26px);
   --font-size-sm: clamp(16px, 1.3vw, 24px);
   --font-size-h2: clamp(23px, 3vw, 32px);
@@ -76,7 +76,7 @@ html {
   border: 1px solid transparent;
   outline: 0;
   border-radius: 49px;
-  padding: clamp(7px, 1vw, 10px) clamp(8px, 1.5vw, 16px);
+  padding: clamp(7px, 1vw, 10px) clamp(12px, 1.5vw, 16px);
   transition: all .3s ease;
   background-color: var(--color-white);
 }

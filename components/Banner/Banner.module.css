@@ -35,7 +35,7 @@
 
 @media(max-width:450px) {
     .banner_wrapper {
-        padding: 1.5625rem 0.3125rem;
+        padding: 1.5625rem 0rem;
     }
 
     .banner_div {

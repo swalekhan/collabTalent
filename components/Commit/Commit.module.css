@@ -70,6 +70,7 @@
     }
     
     .card p {
+        margin-top: 2.5%;
        width: 80%;
        line-height: 17px;
     }
