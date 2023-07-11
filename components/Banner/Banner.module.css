@@ -1,8 +1,8 @@
 .banner {
-    background: url('/banner.png') top no-repeat;
+    /* background: url('/banner.png') top no-repeat; */
     background-size: contain;
     color: var(--color-white);
-    object-fit: cover;
+    object-fit: contain;
     font-family: var(--font-dm-sans);
 
 }
