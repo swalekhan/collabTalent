@@ -2,13 +2,16 @@
 import React from "react";
 import style from './Practice.module.css';
 import { practItems } from "@/utils/data";
+import { useState } from "react"
 
 const Practice = () => {
-
+    const [email, setEmail] = useState(false)
     const submitHandler = (e: any) => {
-        // setTimeout(() => {
-        //     e.target.email.value = ""
-        // }, 1000)
+        e.preventDefault()
+        setTimeout(() => {
+            e.target.email.value = ""
+        }, 1000)
+        setEmail(true)
     }
 
     return (
@@ -30,6 +33,7 @@ const Practice = () => {
                         <input type="email" name="email" placeholder="Please enter email" required />
                         <button type="submit">submit</button>
                     </form>
+                    {email && <p className={style.success}>form submitted successfully</p>}
                 </div>
             </div>
             <div className={style.practice_gradient}> </div>
