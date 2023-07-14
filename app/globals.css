@@ -68,22 +68,22 @@ html {
 .btn {
   text-align: center;
   display: inline-block;
-  color: var(--color-gray-100);
+  color: var(--color-white);
   font-size: var(--font-size-sm);
   font-style: var(--font-dm-sans);
   font-weight: 500;
   cursor: pointer;
-  border: 1px solid transparent;
+  border: 1px solid var(--color-white);
   outline: 0;
   border-radius: 49px;
   padding: clamp(7px, 1vw, 10px) clamp(12px, 1.5vw, 16px);
   transition: all .3s ease;
-  background-color: var(--color-white);
+  background-color: transparent !important;
 }
 
 .btn:hover {
-  color: var(--color-white);
-  background-color: transparent;
+  color: var(--color-gray-100);
+  background-color: var(--color-white) !important;
   border: 1px solid var(--color-white);
 }
 
