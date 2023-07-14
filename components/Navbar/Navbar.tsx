@@ -34,7 +34,7 @@ const Navbar = () => {
                 <ul>
                     {navArr?.map((item, key) => (
                         <li className='btn' key={key} onClick={()=>navHandler(item.title)}>
-                            <Link href="#">{item.title}
+                            <Link href="">{item.title}
                                 <span>
                                     <Image src={item.imgurl} width={13} height={13} priority alt='logo' />
                                 </span>

@@ -7,10 +7,10 @@ const Banner = () => {
         <section className={style.banner}>
             <div className={style.banner_wrapper}>
                 <div className={style.banner_div}>
-                    <h1>Be your Best Version of Yourself</h1>
+                    <h1>Preparing for an interview or presentation?  Be the best version of yourself</h1>
                 </div>
                 <div className={style.banner_div}>
-                    <p >Get Data driven feedback on your next presentation and 
+                    <p >Get Data driven feedback on your next presentation and
                         interview using AI
                     </p>
                 </div>
