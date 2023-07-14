@@ -7,7 +7,7 @@
     height: 100%;
     z-index: 99;
     background-color: var(--color-gray-100);
-    box-shadow: 0px 1px 10px 0px #555;
+    box-shadow: 0px 1px 10px 0px #CCC;
     transition: all .3s ease;
 }
 

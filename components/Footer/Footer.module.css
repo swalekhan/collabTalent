@@ -1,6 +1,6 @@
 .footer {
     font-family: var(--font-neue-montreal);
-    background-color: #222;
+    background-color: #aeaeae;
     padding: -100px;
     color: #fff;
 }
@@ -41,9 +41,10 @@
     font-size: var(--font-size-sm);
 }
 
-.footer_llc{
+.footer_llc {
     font-size: 14px;
 }
+
 @media (max-width:450px) {
 
     .big_img {
@@ -70,10 +71,12 @@
         margin-top: 0.2rem;
         margin-bottom: 0.1rem;
     }
-    .footer_content ul li a{
+
+    .footer_content ul li a {
         font-size: 0.8rem;
     }
-    .footer_llc{
+
+    .footer_llc {
         font-size: 10px;
     }
 }

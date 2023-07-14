@@ -1,8 +1,16 @@
+"use client"
 import React from "react";
 import style from './Practice.module.css';
 import { practItems } from "@/utils/data";
 
 const Practice = () => {
+
+    const submitHandler = (e: any) => {
+        // setTimeout(() => {
+        //     e.target.email.value = ""
+        // }, 1000)
+    }
+
     return (
         <section className={style.practice}>
             <h2>Practice Areas</h2>
@@ -15,11 +23,14 @@ const Practice = () => {
             </ul>
             <div className={style.practice_content}>
                 <h4>
-                    Preparing for presentations and interviews brings on anxiety and stress for most of us.
-                     Practice in front of a mirror.  Practice with a friend.  How can you get an objective opinion?
+                    We give data driven feedback so you can perform at their best
                 </h4>
-                <button className="btn">Join Waitlist</button>
-
+                <div className={style.practice_form} id="#">
+                    <form onSubmit={submitHandler} method="post">
+                        <input type="email" name="email" placeholder="Please enter email" required />
+                        <button type="submit">submit</button>
+                    </form>
+                </div>
             </div>
             <div className={style.practice_gradient}> </div>
 

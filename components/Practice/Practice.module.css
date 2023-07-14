@@ -7,6 +7,7 @@
     font-size: var(--font-size-h2);
     font-weight: 700;
     line-height: clamp(20px, 3.5vw, 40px);
+    display: none;
 }
 
 .practice ul {
@@ -15,6 +16,7 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 2vw;
+    display: none;
 }
 
 .practice ul li {
@@ -28,6 +30,7 @@
     font-weight: 700;
 }
 
+
 .practice_content {
     margin-block: 15%;
     text-align: center;
@@ -36,16 +39,54 @@
 
 .practice_content h4 {
     padding-inline: 7vw;
-    font-size: clamp(16px, 2.5vw, 35px);
+    font-size: clamp(18px, 3vw, 45px);
     font-weight: 500;
     line-height: clamp(20px, 3.5vw, 40px);
 }
+
+.practice_form {
+    /* margin-top: 1rem; */
+    /* text-align: center; */
+    /* border: 2px solid red; */
+}
+
+.practice_form form {
+    margin-top: 1rem;
+    /* text-align: center; */
+}
+
+.practice_form form input {
+    width: 30%;
+    padding: 15px;
+    outline: 0px;
+    border: 1px solid var(--color-white);
+    border-right: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.practice_content form button {
+    text-align: center;
+    display: inline-block;
+    color: var(--color-gray-100);
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border: 1px solid var(--color-white);
+    background-color: var(--color-white);
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.practice_content form button:hover {
+    background-color: #4073f5;
+}
+
 
 .practice_content button {
     margin-top: 5%;
 }
 
-.practice_gradient {
+/* .practice_gradient {
     position: absolute;
     top: 70%;
     left: 50%;
@@ -57,7 +98,7 @@
             rgba(254, 107, 0, 0.74),
             #bd09ff69);
     filter: blur(140px);
-}
+} */
 
 @media(max-width:450px) {
     .practice ul {
@@ -81,13 +122,21 @@
         font-size: 12px;
         box-shadow: 0 1px 10px 0px #bcd5fb;
         border-radius: 0.35rem;
-        
+
     }
 
     .practice_content button {
         margin-top: 8%;
     }
 
+  
+    .practice_form form input {
+        width: 70%;
+        padding: 10px;
+    }
+    .practice_form form button {
+        padding: 10px ;
+    }
     .practice_gradient {
         filter: blur(110px);
     }

@@ -14,10 +14,10 @@
 
   /* font sizes */
   --root-font-size: 16px;
-  --font-size-lg: clamp(33px, 5vw, 80px);
+  --font-size-lg: clamp(26px, 5vw, 50px);
   --font-size-md: clamp(16px, 1.8vw, 26px);
   --font-size-sm: clamp(16px, 1.3vw, 24px);
-  --font-size-h2: clamp(23px, 3vw, 32px);
+  --font-size-h2: clamp(18px, 3vw, 32px);
   --font-size-h4: clamp(18px, 1.8vw, 24px);
   --font-size-base: 16px;
 

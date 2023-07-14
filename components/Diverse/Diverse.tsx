@@ -12,10 +12,7 @@ const Diverse = () => {
                 <img src="/diverse/Ellipse 43.png" alt='png' className={style.img43} />
             </div>
             <div className={style.diverse_content}>
-                <h2>We give data driven feedback so you can perform at their best</h2>
-                <p>Our AI technology proactively targets underrepresented groups from passive and overlooked talent pools.
-                    We are one of the few AI interview practice platform that unlocks all-new opportunities and brings valuable,
-                    fresh perspectives to your training.</p>
+                 <h2>Preparing for presentations and interviews brings on anxiety and stress for most of us. Practice in front of a mirror.  Practice with a friend.  How can you get an objective opinion?</h2>
             </div>
            
         </section>
