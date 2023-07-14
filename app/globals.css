@@ -14,7 +14,7 @@
 
   /* font sizes */
   --root-font-size: 16px;
-  --font-size-lg: clamp(26px, 5vw, 40px);
+  --font-size-lg: clamp(33px, 5vw, 80px);
   --font-size-md: clamp(16px, 1.8vw, 26px);
   --font-size-sm: clamp(16px, 1.3vw, 24px);
   --font-size-h2: clamp(23px, 3vw, 32px);
@@ -22,9 +22,9 @@
   --font-size-base: 16px;
 
   /* Colors */
-  --color-gray-100: #111;
+  --color-gray-100: #fff;
   --color-gainsboro: #d9d9d9;
-  --color-white: #fff;
+  --color-white:#2554C7;
 
   /* border radiuses */
   --br-30xl: 49px;
@@ -41,7 +41,7 @@
 
 body {
   width: 100%;
-  background: url("/Texture.png"), #0D0D0D 0% 0% / 60.90909242630005px 60.90909242630005px repeat;
+  background: #fff;
   color: var(--color-white);
 }
 

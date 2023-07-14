@@ -14,16 +14,19 @@
 }
 .navbar_left{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+}
+.navbar_left h1{
+    font-size: 28px;
 }
 .navbar_left button{
     color: #5688EA;
     background-color: transparent;
     display: inline-block;
     border: 1px solid ;
-    border-color:  #5c16d6c8 ;
+    border-color:  #2554C7 ;
     outline: 0;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     padding: 0.4em 1.3rem;
     border-radius: 0.45rem;
 }  
@@ -84,6 +87,9 @@
         padding-top: 0.5rem;
     }
 
+    .navbar_left h1{
+        font-size: normal;
+    }
     .logo {
         width: 120px;
         height: 30px;

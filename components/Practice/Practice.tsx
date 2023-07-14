@@ -15,8 +15,8 @@ const Practice = () => {
             </ul>
             <div className={style.practice_content}>
                 <h4>
-                    If you are looking for a job in one of our covered categories then drop your
-                    email address and receive an invite to our pilot program.
+                    Preparing for presentations and interviews brings on anxiety and stress for most of us.
+                     Practice in front of a mirror.  Practice with a friend.  How can you get an objective opinion?
                 </h4>
                 <button className="btn">Join Waitlist</button>
 
