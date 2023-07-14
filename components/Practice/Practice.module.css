@@ -44,15 +44,9 @@
     line-height: clamp(20px, 3.5vw, 40px);
 }
 
-.practice_form {
-    /* margin-top: 1rem; */
-    /* text-align: center; */
-    /* border: 2px solid red; */
-}
 
 .practice_form form {
     margin-top: 1rem;
-    /* text-align: center; */
 }
 
 .practice_form form input {
@@ -86,6 +80,10 @@
     margin-top: 5%;
 }
 
+.success{
+    margin-top: 10px;
+    color: green;
+}
 /* .practice_gradient {
     position: absolute;
     top: 70%;
