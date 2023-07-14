@@ -17,7 +17,8 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({ mobileMenuHandler, mobileMe
         <section className={`${style.MobileNavbar} ${mobileMenu ? style.MobileNavbar_active : ""}`} >
             <div className={style.MobileNavbar_content} >
                 <div className={style.MobileNavbar_header}>
-                    <Image src='/Frame.svg' width={150} height={50} priority alt='logo' />
+                    {/* <Image src='/Frame.svg' width={150} height={50} priority alt='logo' /> */}
+                    <h1>Collab Talent</h1>
                 </div>
                 <ul onClick={mobileMenuHandler}>
                     {

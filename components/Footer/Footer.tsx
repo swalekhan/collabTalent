@@ -11,13 +11,17 @@ const Footer = () => {
             </div>
             <hr />
             <div className={style.footer_content}>
-                <p>© 2022-2023 CollabTalent LLC</p>
+                <div className={style.Footer_address}>
+                    <h3>CollabTalent</h3>
+                    <p>Chicago, Illinois, USA</p>
+                </div>
                 <ul>
                     <li><Link href="#">Terms of Services</Link></li>
                     <li><Link href="#">Privacy Policy</Link></li>
                     <li><Link href="#">Cookie Setting</Link></li>
                 </ul>
             </div>
+            <p className={style.footer_llc}>© 2022-2023 CollabTalent LLC</p>
         </footer>
     )
 }

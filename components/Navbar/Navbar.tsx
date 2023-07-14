@@ -27,7 +27,8 @@ const Navbar = () => {
             <MobileNavbar mobileMenu={mobileMenu} mobileMenuHandler={mobileMenuHandler} navHandler = {navHandler}/>
             <nav className={style.navbar} >
                 <div className={style.navbar_left}>
-                    <Image src='/Frame.svg' width={180} height={37} priority alt='logo' className={style.logo} />
+                    {/* <Image src='/Frame.svg' width={180} height={37} priority alt='logo' className={style.logo} /> */}
+                    <h1>CollabTalent</h1> 
                     <button>Beta</button>
                 </div>
                 <ul>

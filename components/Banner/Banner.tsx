@@ -7,13 +7,11 @@ const Banner = () => {
         <section className={style.banner}>
             <div className={style.banner_wrapper}>
                 <div className={style.banner_div}>
-                    <h1>Are you after your dream job and want to put your best
-                        foot forward in the interview?
-                    </h1>
+                    <h1>Be your Best Version of Yourself</h1>
                 </div>
                 <div className={style.banner_div}>
-                    <p >Prepare the smart way and get objective feedback on
-                        how you present yourself using AI technology.
+                    <p >Get Data driven feedback on your next presentation and 
+                        interview using AI
                     </p>
                 </div>
                 <div className={style.banner_div}>
