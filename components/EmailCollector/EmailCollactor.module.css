@@ -1,0 +1,51 @@
+
+
+
+
+.EmailCollactor form {
+    margin-top: 1rem;
+}
+
+.EmailCollactor form input {
+    width: 50%;
+    padding: 15px;
+    outline: 0px;
+    border: 1px solid var(--color-white);
+    border-right: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.EmailCollactor form button {
+    text-align: center;
+    display: inline-block;
+    color: var(--color-gray-100);
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border: 1px solid var(--color-white);
+    background-color: var(--color-white);
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.EmailCollactor form button:hover {
+    background-color:#666 ;
+}
+
+.success {
+    margin-top: 10px !important;
+    color: green !important;
+}
+
+@media(max-width:450px) {
+ 
+    .EmailCollactor form input {
+        width: 65%;
+        padding: 10px;
+    }
+
+    .EmailCollactor form button {
+        padding: 10px;
+    }
+
+}

@@ -5,7 +5,6 @@ export interface NavArr {
 }
 export const navArr: NavArr[] = [
     { id: 1, title: "Share", imgurl: '/Vector.svg', },
-    { id: 2, title: "Join Waitlist", imgurl: '/Vector.svg', },
 ]
 
 
@@ -37,7 +36,7 @@ export const shareWeb = () => {
     if (navigator.share) {
         navigator.share({
             title: 'Collabtalent beta',
-            url: 'collabtalent-next-js.vercel.app'
+            url: 'https://collabtalent-next-js.vercel.app/'
         }).then(() => {
             console.log('Successfully shared');
         }).catch((error) => {

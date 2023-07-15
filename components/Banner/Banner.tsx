@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import style from './Banner.module.css'
 import Image from 'next/image'
+import EmailCollactor from '../EmailCollector/EmailCollactor'
 
 const Banner = () => {
     return (
@@ -14,8 +15,8 @@ const Banner = () => {
                         interview using AI
                     </p>
                 </div>
-                <div className={style.banner_div}>
-                    <Link href="#" className="btn">Join Waitlist</Link>
+                <div className={`${style.banner_div} ${style.EmailCollactor}`}>
+                    <EmailCollactor />
                 </div>
                 <div className={style.banner_div}>
                     <Image src='/banner/Vector-banner.svg' width={20} height={30} priority alt='vector' />

@@ -9,7 +9,7 @@
     padding: 15%;
 }
 
-.diverse_content h2{
+.diverse_content h2 {
     padding: 0px 10px;
     font-size: var(--font-size-h2);
     font-weight: 700;
@@ -82,7 +82,7 @@
     }
 
     .diverse_content h2 {
-        font-size:22px ;
+        font-size: 22px;
         padding: 0px 0px;
         line-height: 1.5rem;
     }

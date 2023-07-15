@@ -34,6 +34,9 @@
     background-color: var(--color-white);
 }
 
+.EmailCollactor{
+    padding-inline: 15%;
+}
 @media(max-width:450px) {
     .banner_wrapper {
         padding: 1.5625rem 0rem;
@@ -46,5 +49,8 @@
     .banner p {
         padding: 0 0.9375rem;
         line-height: 1.2rem;
+    }
+    .EmailCollactor{
+        padding-inline: 0%;
     }
 }
