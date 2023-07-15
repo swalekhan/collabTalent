@@ -14,7 +14,7 @@
 
   /* font sizes */
   --root-font-size: 16px;
-  --font-size-lg: clamp(26px, 5vw, 50px);
+  --font-size-lg: clamp(25px, 5vw, 50px);
   --font-size-md: clamp(16px, 1.8vw, 26px);
   --font-size-sm: clamp(16px, 1.3vw, 24px);
   --font-size-h2: clamp(18px, 3vw, 32px);
@@ -24,7 +24,8 @@
   /* Colors */
   --color-gray-100: #fff;
   --color-gainsboro: #d9d9d9;
-  --color-white:#2554C7;
+  --color-white:#555;
+  --color-subtext:#777;
 
   /* border radiuses */
   --br-30xl: 49px;
