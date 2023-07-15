@@ -8,7 +8,7 @@
 .practice_img {
     position: relative;
     width: 49%;
-    height: 450px;
+    height: 400px;
 }
 
 .practice_img img {
@@ -31,61 +31,9 @@
     line-height: clamp(20px, 3.5vw, 40px);
 }
 
-
-.practice_form form {
-    margin-top: 1rem;
+.practice_email_collactor {
+    margin-top: 1.5rem;
 }
-
-.practice_form form input {
-    width: 50%;
-    padding: 15px;
-    outline: 0px;
-    border: 1px solid var(--color-white);
-    border-right: 0px;
-    border-radius: 5px 0px 0px 5px;
-}
-
-.practice_content form button {
-    text-align: center;
-    display: inline-block;
-    color: var(--color-gray-100);
-    text-transform: uppercase;
-    padding: 15px 20px;
-    border: 1px solid var(--color-white);
-    background-color: var(--color-white);
-    border-radius: 0px 5px 5px 0px;
-    cursor: pointer;
-    transition: all .3s ease;
-}
-
-.practice_content form button:hover {
-    background-color: var(--color-gray-100);
-    color: var(--color-white);
-}
-
-
-.practice_content button {
-    margin-top: 5%;
-}
-
-.success {
-    margin-top: 10px;
-    color: green;
-}
-
-/* .practice_gradient {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30%;
-    height: 40%;
-    border-radius: 50%;
-    background: radial-gradient(50% 50%at 50% 50%,
-            rgba(254, 107, 0, 0.74),
-            #bd09ff69);
-    filter: blur(140px);
-} */
 
 @media(max-width:450px) {
     .practice {
@@ -107,21 +55,4 @@
         width: 100%;
     }
 
-    .practice_content button {
-        margin-top: 8%;
-    }
-
-
-    .practice_form form input {
-        width: 60%;
-        padding: 10px;
-    }
-
-    .practice_form form button {
-        padding: 10px;
-    }
-
-    .practice_gradient {
-        filter: blur(110px);
-    }
 }
