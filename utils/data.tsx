@@ -44,3 +44,21 @@ export const shareWeb = () => {
         });
     }
 }
+
+
+interface HireArr {
+    id: number;
+    title: string;
+}
+
+export const hireLeft: HireArr[] = [
+    { id: 1, title: "Know what was happening, while you were away" },
+    { id: 2, title: "Use suggested questionnaire, or create your own custom questions" },
+    { id: 3, title: "Interview candidates where they are and when they can" },
+]
+
+export const hireRight: HireArr[] = [
+    { id: 1, title: "Find your super hires, before they are actually hired" },
+    { id: 2, title: "Recalibrate with ease as your hiring needs evolve" },
+    { id: 3, title: "Trust your gut and instincts, but back it up with data" },
+]

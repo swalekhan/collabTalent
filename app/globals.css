@@ -23,9 +23,10 @@
 
   /* Colors */
   --color-gray-100: #fff;
-  --color-gainsboro: #d9d9d9;
+  --color-text: #555;
   --color-white:#555;
   --color-subtext:#777;
+  --color-primary: rgba(51, 111, 223, 0.888);
 
   /* border radiuses */
   --br-30xl: 49px;

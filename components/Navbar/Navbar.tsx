@@ -28,7 +28,7 @@ const Navbar = () => {
             <nav className={style.navbar} >
                 <div className={style.navbar_left}>
                     {/* <Image src='/Frame.svg' width={180} height={37} priority alt='logo' className={style.logo} /> */}
-                    <h1>CollabTalent</h1> 
+                    <h1>Collab<span>Talent</span></h1> 
                     <button>Beta</button>
                 </div>
                 <ul>
